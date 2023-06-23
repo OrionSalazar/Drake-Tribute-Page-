@@ -1,0 +1,55 @@
+*{padding: 0;
+margin:0;}
+h1{padding:25px;
+font-family: italic;}
+h2{font-size: 20px;
+background-color: #13151f;
+margin: 10px;
+padding: 10px;border-radius:10px;}
+body{
+background-color: #03050f;
+color:white;
+font-family: -apple-system;
+text-align:center}
+.img container{margin: auto;
+padding: 30px;background-color: #002;}
+.drake-image {object-fit: contain;
+border-radius: 10px;
+max-width: 100%;
+display: block;
+height: auto;
+margin: auto;
+}
+.caption {padding-top: 10px;}
+.legacy {text-align: left;
+padding: 30px 70px;
+max-width: 600px;
+margin: 10px auto;
+background-color: #002;
+}
+.legacy-info-bold {text-align: center;font-size: 20px;
+font-family: Arial;
+padding: 30px;}
+.bold {font-weight: bold;}
+li {margin: 20px;}
+.quote{margin: 30px 30px 5px;
+font-style: italic;}
+.quote-author {text-indent: 30px;}
+.scroll-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden; 
+  perspective: 1px;
+  transform-style: preserve-3d
+}
+.scroll-wrapper2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -10px;
+  margin:0;
+  padding:0;
+  transform: translateZ(-1px)  scale(2);
+}
